@@ -1,0 +1,4 @@
+1- Hi. when I add django_jalali to my setting file and run my server I got following error :
+     File "\path-to-my-vitualenv\site-packages\django_jalali\db\models.py", line 38, in jDateField
+        __metaclass__ = models.SubfieldBase
+        AttributeError: 'module' object has no attribute 'SubfieldBase'
